@@ -1,5 +1,5 @@
 local rand = Random.new()
-local emoji = game:HttpGet('https://raw.githubusercontent.com/potionhub/Potion-Hub/main/emoji.lua');
+local emoji = {'😂😂','🤣🤣','😀','😃','😌','😎','🤓','🤓','🤓','😣','😣','😉','😍','🥰','😘','😙','😘','😚','😔','😕','🤬','🤬🤬🤬','🤯','😳😳','😳','🙂','😂😂'}
 
 function getRandomLetter()
     return emoji[rand:NextInteger(1,#emoji)]

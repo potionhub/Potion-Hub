@@ -1,12 +1,12 @@
 local rand = Random.new()
-local emoji = {'%30','%30','%36','%37','%37','%33','%30','%31','%35','%32','%36','%32','%&%69','%64','%64'}
+local emoji = {'a','b','c','ddd','e','f','gg','h','i','j','k','L','M','NNN','v'}
     
 function getRandomLetter()
     return emoji[rand:NextInteger(1,#emoji)]
 end
 
 function str(length, includeCapitals)
-    local length = length or 50
+    local length = length or 10
     local str = ''
     for i=1,length do
         local randomLetter = getRandomLetter()

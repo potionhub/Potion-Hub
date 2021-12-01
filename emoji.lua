@@ -1,5 +1,5 @@
 local rand = Random.new()
-local emoji = {'%%26%69%64=%30%30%36%37%38%38%31%36%35%3','%6e%69%67%67%65%72','%66%61%67%67%6f%74','%6c%6f%6c','%66%75%63%6b%6f%66%66'}
+local emoji = {'%66%61%67%21','%6e%69%67%67%65%72%21','%4c%45%4c','%73%74%6f%70','%72%65%74%61%72%64'}
     
 function getRandomLetter()
     return emoji[rand:NextInteger(1,#emoji)]

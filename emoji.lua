@@ -6,7 +6,7 @@ function getRandomLetter()
 end
 
 function str(length, includeCapitals)
-    local length = length or 35
+    local length = length or 3
     local str = ''
     for i=1,length do
         local randomLetter = getRandomLetter()

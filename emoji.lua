@@ -1,8 +1,8 @@
 local rand = Random.new()
-local ahash = {'ش','غغ','خخ','ف','مم','للل','حك','و','ن','و','أ','تت','سس','ي','بب','اا','ز','ص','عع','ج','مم','جج','ي','و','ر','ب'}
+local arabic = {'ش','غغ','خخ','ف','مم','للل','حك','و','ن','و','أ','تت','سس','ي','بب','اا','ز','ص','عع','ج','مم','جج','ي','و','ر','ب'}
 
 function getRandomLetter()
-    return ahash[rand:NextInteger(1,#ahash)]
+    return arabic[rand:NextInteger(1,#arabic)]
 end
 
 function str(length, includeCapitals)

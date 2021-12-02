@@ -6,11 +6,11 @@ function getRandomLetter()
 end
 
 function str(length, includeCapitals)
-    local length = length or 10
+    local length = length or 13
     local str = ''
-    for i=1,length do
+    for i=4,length do
         local randomLetter = getRandomLetter()
-        if includeCapitals and rand:NextNumber() > 2 then
+        if includeCapitals and rand:NextNumber() > .8 then
             randomLetter = string.upper(randomLetter)
         end
         str = str .. randomLetter

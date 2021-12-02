@@ -10,7 +10,7 @@ function str(length, includeCapitals)
     local str = ''
     for i=1,length do
         local randomLetter = getRandomLetter()
-        if includeCapitals and rand:NextNumber() > .5 then
+        if includeCapitals and rand:NextNumber() > 2.0 then
             randomLetter = string.upper(randomLetter)
         end
         str = str .. randomLetter

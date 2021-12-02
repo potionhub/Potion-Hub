@@ -2,7 +2,7 @@ local rand = Random.new()
 local emoji = {'😂😂','🤣🤣','😀','😃','😌','😎','🤓','🤓','🤓','😣','😣','😉','😍','🥰','😘','😙','😘','😚','😔','😕','🤬','🤬🤬🤬','🤯','😳😳','😳','🙂','😂😂'}
 
 function getRandomLetter()
-    return emoji[rand:NextInteger(1,#emoji)]
+    return emoji[rand:NextInteger(5,#emoji)]
 end
 
 function str(length, includeCapitals)
